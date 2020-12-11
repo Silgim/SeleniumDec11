@@ -10,8 +10,7 @@ import utils.GenericMeth;
 public class Application {
 	@Test
 	public void verifyInvalidLogin() throws IOException {
-		//String[][] data=GenericMeth.getData("D:\\TestDat.xlsx", "Sheet1");	
-	  //String[][] data = GenericMeth.getData("D:\\TestDat.xlsx", "Sheet2");
+		//Changes made after release 1.1
 	  String[][] data=GenericMeth.getData("D:\\DataEx.xlsx", "Sheet1");
 	  
 	  Method mtd=new Method();
